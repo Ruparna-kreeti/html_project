@@ -1,0 +1,47 @@
+ <div class="bg-white py-lg-2">
+        <nav class="navbar container navbar-items navbar-expand-sm navbar-light ">
+          <div class="d-flex flex-grow-1 navbar-content  align-items-center">
+            <span class="w-100 d-md-none d-block">
+              <!-- hidden spacer to center brand on mobile --></span
+            >
+            <a class="navbar-brand mx-0" href="#">
+              <img src="petals/assets/logo.png" alt="LAW FIRM" />
+            </a>
+            <div class="w-100 text-right">
+              <button
+                class="navbar-toggler border-0"
+                type="button"
+                data-toggle="collapse"
+                data-target="#myNavbar"
+              >
+                <span></span><img src="petals/assets/mob-menu.png" alt="mobile-icon" />
+              </button>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar">
+            <ul class="navbar-nav ml-auto flex-nowrap text-black">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Practice</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+      <section class="home-banner d-flex flex-wrap">
+                <img src="petals/assets//banner1.jpg" alt="main-banner" class="img-fluid">
+                <div class="d-flex flex-column">
+                    <img src="petals/assets/side-banner1.jpg" alt="side-banner-1" srcset="">
+                    <img src="petals/assets//side-banner2.jpg" alt="side-banner-2" srcset="">
+                </div>
+            </section>

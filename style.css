@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* overriding bootstrap css start */
+.nav-link {
+  color: black;
+  font-weight: bold;
+  margin: auto 20px;
+}
+.nav-link:hover {
+  color: gray;
+}
+.d-flex {
+  gap: 10px;
+}
+/* overriding bootstrap css end */
+
+.petals-container {
+  display: flex;
+  gap: 10px;
+}
+.banner1 {
+  flex-grow: 2;
+}
+.side-banners {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+/*tab view */
+@media only screen and (max-width: 790px) {
+  .petals-container {
+    flex-wrap: wrap;
+  }
+
+  .banner1 img {
+    width: 100%;
+  }
+  .side-banners {
+    flex-grow: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: stretch;
+  }
+  .side-banners .img {
+  }
+}
+
+/*mobile view */
+@media only screen and (max-width: 576px) {
+  .nav {
+    background-color: gray;
+  }
+}
