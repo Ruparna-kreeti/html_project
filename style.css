@@ -24,21 +24,28 @@
 
 /*banner css */
 .petals {
-  padding-top: 65px;
-  max-width: 100vw;
+  max-height: 600px;
   overflow: hidden;
-}
-.side-container {
-  padding-right: 0;
+  padding-top: 65px;
   display: flex;
-  flex-direction: column;
-  gap: 13px;
+  gap: 1em;
+}
+.main-banner {
+  width: 70%;
 }
 .main-banner img {
-  align-self: stretch;
   width: 100%;
 }
-
+.side-container {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  width: 30%;
+}
+.side-container img {
+  width: 100%;
+  height: 100%;
+}
 /*feature css */
 .feature {
   width: 100%;
@@ -106,11 +113,17 @@
     background-color: var(--red);
     color: white;
   }
-  /*side banner css */
+  /*banner css */
+  .petals {
+    flex-direction: column;
+  }
+  .main-banner {
+    width: 100%;
+  }
   .side-container {
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    width: 100%;
   }
   .side-container img {
     max-width: 48%;
