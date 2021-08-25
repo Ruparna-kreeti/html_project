@@ -4,6 +4,7 @@
   --deep-gray: #737373;
   --petal: #4d9900;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -12,12 +13,15 @@
 /* overriding bootstrap css */
 .nav-link {
   color: black;
+  font-size: 1rem;
   font-weight: bold;
-  margin: auto 20px;
+  padding-left: 2rem !important;
 }
+
 .nav-link:hover {
   color: var(--deep-gray);
 }
+
 .d-flex {
   gap: 10px;
 }
@@ -29,22 +33,27 @@
   display: flex;
   gap: 1em;
 }
+
 .main-banner {
   width: 70%;
 }
+
 .main-banner img {
   width: 100%;
 }
+
 .side-container {
   display: flex;
   gap: 1em;
   flex-direction: column;
   width: 30%;
 }
+
 .side-container img {
   width: 100%;
   height: 100%;
 }
+
 /*feature css */
 .feature {
   width: 100%;
@@ -63,10 +72,12 @@
   align-items: center;
   gap: 20px;
 }
+
 .flowers-row {
   display: flex;
   gap: 10px;
 }
+
 .flower-card {
   background-color: var(--light-gray);
   padding: 20px;
@@ -76,11 +87,13 @@
   align-items: center;
   text-align: center;
 }
+
 .flower-card img {
   width: 100%;
   border: 1px solid transparent;
   border-radius: 50%;
 }
+
 .flower-card h3 {
   font-weight: bold;
 }
@@ -90,47 +103,73 @@
   margin: 0;
   background-color: black;
 }
+
 .footer-content h3 {
   margin-top: 30px;
   color: var(--red);
 }
+
 .footer-content .span-content {
   color: white;
   font-size: 0.8em;
 }
+
 .petal-color {
   color: var(--petal);
 }
+
 /*mobile view */
 @media only screen and (max-width: 576px) {
   /*bootstrap css overriding*/
   .navbar-collapse {
     background-color: var(--light-gray);
   }
-  .nav-item:hover,
+
+  .navbar-brand {
+    margin-left: 1em !important;
+  }
+
+  .navbar-items {
+    margin: 0;
+    padding: 0;
+  }
+
   .nav-link:hover {
     background-color: var(--red);
     color: white;
   }
+
+  .nav-link {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 10px 0 !important;
+    padding: 0.7rem 0 !important;
+  }
+
   /*banner css */
   .petals {
     flex-direction: column;
   }
+
   .main-banner {
     width: 100%;
   }
+
   .side-container {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
   }
+
   .side-container img {
     max-width: 48%;
   }
+
   /*flower card css*/
   .flowers-section {
     align-items: center;
   }
+
   .flowers-row {
     flex-direction: column;
   }
