@@ -87,7 +87,7 @@
 
 .flower-card {
   background-color: var(--light-gray);
-  padding: 1em;
+  padding: 1.5em 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,7 +131,7 @@
 }
 
 /*mobile view */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   /*bootstrap css overriding*/
   .navbar-collapse {
     background-color: var(--light-gray);
