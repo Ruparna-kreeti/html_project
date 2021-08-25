@@ -87,12 +87,13 @@
 
 .flower-card {
   background-color: var(--light-gray);
-  padding: 20px;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  white-space: nowrap;
 }
 
 .flower-card img {
@@ -102,7 +103,11 @@
 }
 
 .flower-card h3 {
+  font-size: 1.4em;
   font-weight: bold;
+}
+.flower-card p {
+  font-size: 0.8em;
 }
 
 /*footer css */
